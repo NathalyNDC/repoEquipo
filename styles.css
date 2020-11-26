@@ -126,17 +126,25 @@
         color: #1DB954
      }
 
-     
+   .link-fot {
+    
+    margin: 0 15px !important; 
+   }  
+
+   .link-fot a {
+    color: #899096 !important;
+    font-size: 10px;
+   }
 .country, .links{
     color: #899096;
 }
 
-.links{
+.bot-links .links{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.link-fot{
+.bot-links .link-fot{
     display: inline-block;
     margin: 10px 10px 10px 0px;
     transition: 5sg;
